@@ -1,20 +1,17 @@
 # My First docker build
-this is just my first docker experimented from my earlier [flask project](https://github.com/AnkurAlpha/My-first-flask-project).
+this is just my first docker image from my earlier [flask project](https://github.com/AnkurAlpha/My-first-flask-project).
 
 
 #### How to build :
-after writing the docker file , run :
+Go into the repo and run :
 ```
 docker build -t flaskappllication:test .
 ```
-it will take the files frim current directory and build it
 
-
-to run :
+create and run a container:
 ```
 dcoker run -p 5000:5000 flaskappllication:test
 ```
-will export port 5000 to 5000
 
 
 - things used :
